@@ -1,0 +1,277 @@
+html,
+body {
+    background-color: hsl(27, 66%, 92%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.heading {
+    display: flex;
+    width: 380px;
+    height: 80px;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 15px;
+    color: hsl(33, 100%, 98%);
+    justify-content: space-around;
+    align-items: center;
+}
+
+.circle {
+    width: 28px;
+    height: 28px;
+    background-color: none;
+    border-radius: 50%;
+}
+
+.left {
+    background-color: hsl(25, 47%, 15%);
+    margin-left: 100px;
+    border: solid hsl(25, 47%, 15%);
+    border-width: 0.1em;
+}
+
+.right {
+    border: solid hsl(33, 100%, 98%);
+    margin-left: -170px;
+    border-width: 0.1em;
+}
+
+.text {
+    font-family: 'DM Sans', sans-serif;
+    color: hsl(33, 100%, 98%);
+    font-weight: 400;
+    font-size: 13px;
+    margin-left: -40px;
+
+}
+
+.amount {
+    color: hsl(33, 100%, 98%);
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: -40px;
+    line-height: 40px;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    height: 360px;
+    background-color: hsl(33, 100%, 98%);
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.upper-text {
+    flex-direction: column;
+    margin-left: 30px;
+    margin-top: 25px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#all-bars {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.bar {
+    display: inline-flex;
+    flex-direction: column;
+    background-color: hsl(10, 79%, 65%);
+    justify-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 100%;
+    width: 38px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    text-align: center;
+    position: relative;
+}
+
+.bar:hover {
+    opacity: 80%;
+    color: black;
+}
+
+.ratios {
+    display: inline-flex;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    width: 38px;
+    height: 30px;
+}
+
+.ratio {
+    background-color: black;
+    font-family: 'DM Sans', sans-serif;
+    line-height: 30px;
+    font-size: 12px;
+    width: 38px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+#days {
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 14px;
+    font-family: 'DM Sans', sans-serif;
+    margin-top: 10px;
+}
+
+
+.one {
+    height: 40px;
+    margin-top: 50px;
+}
+
+.first {
+    margin-top: -40px;
+}
+
+.mon {
+    margin-left: 20px;
+}
+
+.two {
+    height: 80px;
+    line-height: 120px;
+    margin-top: 10px;
+}
+
+.second {
+    margin-top: -60px;
+}
+
+.tue {
+    margin-left: 30px;
+}
+
+.three {
+    height: 120px;
+    background-color: hsl(186, 34%, 60%);
+    line-height: 160px;
+    margin-top: -30px;
+}
+
+.third {
+    margin-top: -80px;
+}
+
+.wed {
+    margin-left: 30px;
+
+}
+
+.four {
+    height: 70px;
+    line-height: 110px;
+    margin-top: 20px;
+}
+
+.fourth {
+    margin-top: -55px;
+}
+
+.thu {
+    margin-left: 30px;
+}
+
+
+.five {
+    height: 50px;
+    line-height: 90px;
+    margin-top: 40px;
+}
+
+.fifth {
+    margin-top: -45px;
+}
+
+.fri {
+    margin-left: 35px;
+}
+
+.six {
+    height: 90px;
+    line-height: 130px;
+}
+
+.sixth {
+    margin-top: -65px;
+}
+
+.sat{
+    margin-left: 38px;
+}
+
+
+.seven {
+    height: 65px;
+    line-height: 100px;
+    margin-top: 30px;
+}
+
+.seventh {
+    margin-top: -52px;
+}
+
+.sun {
+    margin-left: 31px;
+}
+
+.line {
+    border: 0.5px solid rgb(220, 211, 211);
+    width: 335px;
+    background-color: rgb(220, 211, 211);
+    margin-top: 30px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.label1 {
+    font-size: 13px;
+    font-family: 'DM Sans', sans-serif;
+    margin-left: 20px;
+}
+
+.label2 {
+    font-size: 25px;
+    font-family: 'DM Sans', sans-serif;
+    margin-left: 20px;
+    line-height: 40px;
+    font-weight: 700;
+}
+
+.label3 {
+    font-size: 15px;
+    font-family: 'DM Sans', sans-serif;
+    margin-left: 45px;
+    font-weight: 700;
+}
+
+.label4 {
+    font-size: 13px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    margin-right: 20px;
+}
+
+
